@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p-title {
+  padding: 10px;
+  font-weight: 400;
+  color: white;
+  font-size: 32px;
+}
+.p-username {
+  padding: 10px;
+  font-weight: 800;
+  color: white;
+  font-size: 48px;
+}
+.btn-message {
+  padding: 16px 24px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 32px;
+  cursor: pointer;
+  background-color: #a860ea;
+  color: white;
+}
+
+.btn-message:hover {
+  padding: 18px 26px;
+  background-color: #9f4cec;
+}
